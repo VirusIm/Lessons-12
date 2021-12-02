@@ -1,4 +1,4 @@
-function getMaxSubSum()
+/*function getMaxSubSum()
 {
     let arr = [1, -2, 3, 4, -9, 6]
     let max = 0;
@@ -17,8 +17,11 @@ function getMaxSubSum()
     return max;
 }
 alert(getMaxSubSum());
+*/
 
 /*
+function fSum()
+{
 let arr = [1];  //Если нечего не записывать в массив, не работает код
 while(true)
 {
@@ -30,9 +33,35 @@ while(true)
 arr.shift();
 arr.pop();
 let sum = 0;
-for (let i = 0; i < arr[arr.length-1]; i++) 
-{
-    sum += arr[i];
+  for (let number of numbers) {
+    sum += number;
+  }
+  return sum;
 }
-alert(sum);
-*/
+alert(fSum);*/
+
+
+function fSum() {
+
+    let array = [1];
+  
+    while (true) {
+  
+        arr.push(prompt("Введите элемент массива:"));
+        if(arr[arr.length-1] == null
+        || arr[arr.length-1] == ''
+        || !isFinite(arr[arr.length-1])) break;
+  
+      numbers.push(+value);
+    }
+    arr.shift();
+    arr.pop();
+    
+    let sum = 0;
+    for (let number of numbers) {
+      sum += number;
+    }
+    return sum;
+  }
+  
+  alert(fSum() );
